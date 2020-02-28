@@ -215,6 +215,7 @@ def parse_email(raw_email, policy=None):
     parsed_email['sent_to'] = get_mail_addresses(email_message, 'to')
     parsed_email['cc'] = get_mail_addresses(email_message, 'cc')
     parsed_email['bcc'] = get_mail_addresses(email_message, 'bcc')
+    parsed_email['raw'] = raw_email
 
     value_headers_keys = ['subject', 'date', 'message-id']
     key_value_header_keys = ['received-spf',
