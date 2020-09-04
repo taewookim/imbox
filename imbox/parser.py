@@ -224,8 +224,7 @@ def parse_email(raw_email, policy=None):
                              'x-spam-score',
                              'content-type',
                              'references',
-                             'in-reply-to'
-                            ]
+                             'in-reply-to']
 
     parsed_email['headers'] = []
     for key, value in email_dict.items():
