@@ -18,7 +18,7 @@ Python (3.3, 3.4, 3.5, 3.6)
 Installation
 ------------
 
-``pip install imbox``
+``pip install git+https://github.com/taewookim/imbox``
 
 
 Usage 
